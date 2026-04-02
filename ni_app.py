@@ -35,6 +35,6 @@ class NI_App(BaseMicroscopeApp):
 
 if __name__ == '__main__':
     import sys
-    
+    # this actually runs the app
     app = NI_App(sys.argv)
     sys.exit(app.exec_())
